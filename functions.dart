@@ -1,3 +1,5 @@
+/// Micro-Functions Useful for Functional Styles
+
 typedef num NumberOperation(num x);
 
 self(it) => it;
