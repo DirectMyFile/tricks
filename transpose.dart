@@ -1,5 +1,5 @@
 List<List<dynamic>> transpose(List<List<dynamic>> input) {
-  return input.isEmpty ? [] : new List<int>.generate(input.first.length, (x) => x).map((i) {
+  return new List<int>.generate(input.first.length, (x) => x).map((i) {
     return input.map((it) => it[i]).toList();
   }).toList();
 }
